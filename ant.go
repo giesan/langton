@@ -75,7 +75,7 @@ func setNextPosition(ant *Ant) {
 	}
 }
 
-// posittionAntOnBoard sets the ant into center of the board.
+// positionAntOnBoard sets the ant into center of the board.
 // Returns error if the size of board is not correct.
 func positionAntOnBoard(ant *Ant, size int) error {
 	if size%2 == 1 {
