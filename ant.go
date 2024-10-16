@@ -12,7 +12,7 @@ const (
 	W            // West
 )
 
-// Ant holds all propoeties of ant.
+// Ant holds all properties of ant.
 type Ant struct {
 	Direction int
 	Symbol    string

@@ -2,7 +2,7 @@ package main
 
 import "fmt"
 
-// Board holds all proporties of board.
+// Board holds all properties of board.
 type Board struct {
 	Size   int
 	Matrix [][]string
